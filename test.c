@@ -7,3 +7,6 @@ int main( int argc, const char *argv[] ) {
     printf("J0(%g) = % .18e\n", x, y ) ;
     return 0 ;
 }
+
+// to use gsl library, add library flags
+// gcc -lm -lgsl [file name]
